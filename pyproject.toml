@@ -1,0 +1,18 @@
+[project]
+name = "django-user-auth"
+version = "0.1.0"
+description = "Tutorial for Django user management https://www.youtube.com/watch?v=WuyKxdLcw3w"
+authors = [
+    {name = "Makss Golubs",email = "m.golubs@icloud.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django (>=5.2.1,<6.0.0)",
+    "crispy-bootstrap5 (>=2025.4,<2026.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
