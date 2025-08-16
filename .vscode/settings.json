@@ -1,0 +1,17 @@
+{
+    // Treat .html files as Django templates
+    "files.associations": {
+        "*.html": "django-html"
+    },
+    // Tell Emmet to work in Django HTML
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "emmet.syntaxProfiles": {
+        "django-html": "html"
+    },
+    // Expand Emmet abbreviations (like "p", "div", etc.) on Tab
+    "emmet.triggerExpansionOnTab": true,
+    // (Optional) if you want snippets to show up before other completions:
+    "editor.snippetSuggestions": "top"
+}
